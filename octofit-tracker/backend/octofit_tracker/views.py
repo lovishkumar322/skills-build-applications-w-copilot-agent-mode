@@ -6,7 +6,7 @@ from .models import User, Team, Activity, Leaderboard, Workout
 
 @api_view(['GET'])
 def api_root(request, format=None):
-    base_url = 'https://bookish-garbanzo-pj9j56v5vp4w27xg5-8000.app.github.dev/'
+    base_url = 'https://bookish-garbanzo-pj9j56v5vp4w27xg5-8000.app.github.dev/'  # Updated with Codespace URL
     return Response({
         'users': base_url + 'api/users/',
         'teams': base_url + 'api/teams/',

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const API_ENDPOINT = 'http://localhost:8000/api/activities/'; // Updated with full Django REST API endpoint
+const API_ENDPOINT = 'https://bookish-garbanzo-pj9j56v5vp4w27xg5-8000.app.github.dev/api/activities/'; // Updated with Codespace URL
 
 // Example usage of the endpoint
 fetch(API_ENDPOINT)
