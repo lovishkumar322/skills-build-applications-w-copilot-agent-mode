@@ -1,5 +1,7 @@
 import React from 'react';
 
+const API_ENDPOINT = 'http://localhost:8000/api/teams/'; // Updated with full Django REST API endpoint
+
 function Teams() {
   return (
     <div className="card">

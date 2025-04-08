@@ -1,5 +1,7 @@
 import React from 'react';
 
+const API_ENDPOINT = 'http://localhost:8000/api/workouts/'; // Updated with full Django REST API endpoint
+
 function Workouts() {
   return (
     <div className="card">

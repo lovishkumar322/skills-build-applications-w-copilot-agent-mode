@@ -1,5 +1,17 @@
 import React from 'react';
 
+const API_ENDPOINT = 'http://localhost:8000/api/activities/'; // Updated with full Django REST API endpoint
+
+// Example usage of the endpoint
+fetch(API_ENDPOINT)
+  .then(response => response.json())
+  .then(data => {
+    console.log('Activities data:', data);
+  })
+  .catch(error => {
+    console.error('Error fetching activities:', error);
+  });
+
 function Activities() {
   return (
     <div className="card">

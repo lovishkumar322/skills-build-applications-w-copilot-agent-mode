@@ -1,5 +1,7 @@
 import React from 'react';
 
+const API_ENDPOINT = 'http://localhost:8000/api/users/'; // Updated with full Django REST API endpoint
+
 function Users() {
   return (
     <div className="card">
