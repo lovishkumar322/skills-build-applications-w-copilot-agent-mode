@@ -1,6 +1,6 @@
 import React from 'react';
 
-const API_ENDPOINT = 'http://bookish-garbanzo-pj9j56v5vp4w27xg5-8000/api/teams/'; // Updated with full Django REST API endpoint
+const API_ENDPOINT = 'http://bookish-garbanzo-pj9j56v5vp4w27xg5-8000.app.github.dev/api/teams/'; // Updated with full Django REST API endpoint
 
 function Teams() {
   return (
